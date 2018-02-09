@@ -9,6 +9,7 @@ import { ThreadSectionComponent } from './thread-section/thread-section.componen
 import { MessageSectionComponent } from './message-section/message-section.component';
 import { ThreadListComponent } from './thread-list/thread-list.component';
 import { MessageListComponent } from './message-list/message-list.component';
+import { ThreadService } from './services/thread.service';
 
 
 @NgModule({
@@ -24,7 +25,7 @@ import { MessageListComponent } from './message-list/message-list.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ThreadService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

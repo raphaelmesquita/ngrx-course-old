@@ -54,6 +54,7 @@
     }
   },
   "defaults": {
+    "lintFix": true,
     "styleExt": "scss",
     "class": {
       "spec": false
